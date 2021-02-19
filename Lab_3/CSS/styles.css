@@ -1,0 +1,65 @@
+body {
+    background-color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+#container {
+    width: 75%;
+    margin: 0 auto;
+    background-color: lightslategray;
+    padding: 20px;
+    border: 2px gray;
+}
+
+header h1 {
+    color: white;
+    size: 60px;
+    text-align: center;
+}
+
+nav {
+    background-color: white;
+    text-align: center;
+    padding: 30px 0 15px 0;
+}
+
+nav a {
+    background-color: lightslategray;
+    color: white;
+    padding: 10px 50px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 10px 10px 10px 10px;
+}
+
+a:hover {
+    color: teal;
+}
+
+main {
+    padding: 10px;
+    margin: 10px;
+}
+
+main h2 {
+    color: teal;
+    size: 20px;
+    text-align: center;
+}
+
+main img {
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: white;
+    margin: 40px 0;
+    border-radius: 40px;
+}
