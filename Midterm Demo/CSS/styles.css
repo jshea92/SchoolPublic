@@ -1,0 +1,52 @@
+body {
+    background-color: #430A0C;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+header {
+    background-color: black;
+}
+
+header img {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+#container {
+    background-color: white;
+    width: 75%;
+    margin: 0 auto;
+    border-left: 4px solid #d9933d;
+    border-right: 4px solid #d9933d;
+    border-bottom: 4px solid #d9933d;
+}
+
+nav {
+    background-color: #430A0C;
+    padding: 20px 30px 9px 30px;
+    text-align: center;
+}
+
+nav a {
+    background-color: white;
+    padding: 20px 60px;
+    font-size: 20px;
+    color: #430A0C;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 0 3px;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+}
