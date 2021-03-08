@@ -5,3 +5,4 @@
 <br>
 <a href="Lab_3/index.html">Lab 3 & 4</a>
 <br>
+<a href="Midterm/index.html">Midterm</a>
