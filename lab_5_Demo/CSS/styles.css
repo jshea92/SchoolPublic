@@ -5,7 +5,7 @@ img {
 }
 
 body {
-    background-color: #D7D7D9;
+    background-color: #8C3503;
 }
 
 /* Mobile Styles */
@@ -15,11 +15,17 @@ body {
 }
 
 header {
+    background-color: #55A603;
     padding: 20px;
 }
 
 nav {
     text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
 }
 
 nav li {
@@ -28,6 +34,8 @@ nav li {
 
 nav li a {
     display: block;
+    background-color: #55A603;
+    color: #8C3503;
     font-size: 1.5em;
     margin: 5px 0;
     height: 50px;
@@ -36,7 +44,8 @@ nav li a {
 }
 
 nav li a:hover {
-    color: #718BD9;
+    background-color: #F2380F;
+    color: #55A603;
     text-shadow: none;
 }
 
@@ -44,22 +53,37 @@ section, aside {
     padding: 20px;
 }
 
+section {
+    background-color: #F2380F;
+}
+
 section h1 {
+    color: #55A603;
+    text-shadow: 2px 2px 2px black;
     text-align: center;
     font-size: 1.6em;
 }
 
 aside {
+    background-color: #55A603;
     margin-top: 10px;
 }
 
 aside h2, aside h3 {
+    color: #F2380F;
     text-shadow: 1px 1px 1px black;
     text-align: center;
     font-size: 1.3em;
 }
 
+aside hr {
+    border-color: #F2380F;
+}
+
 footer {
+    background-color: #F2380F;
     padding: 40px 0;
     text-align: center;
+    color: #55A603;
+    text-shadow: 2px 2px 2px black;
 }
