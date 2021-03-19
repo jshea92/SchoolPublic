@@ -28,11 +28,11 @@ nav li {
 
 nav li a {
     display: block;
+    color: white;
     font-size: 1.5em;
     margin: 5px 0;
     height: 50px;
     line-height: 50px;
-    text-shadow: 1px 1px 1px black;
 }
 
 nav li a:hover {
@@ -54,7 +54,6 @@ aside {
 }
 
 aside h2, aside h3 {
-    text-shadow: 1px 1px 1px black;
     text-align: center;
     font-size: 1.3em;
 }
