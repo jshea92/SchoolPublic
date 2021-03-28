@@ -2,10 +2,20 @@
 
 img {
     max-width: 100%;
+    display: block;
+    margin: 10px auto;
 }
 
 body {
     background-color: #D7D7D9;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    display: flex 50%;
 }
 
 /* Mobile Styles */
@@ -22,8 +32,14 @@ nav {
     text-align: center;
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 nav li {
     display: block;
+    display: inline-block;
 }
 
 nav li a {
@@ -61,4 +77,83 @@ aside h2, aside h3 {
 footer {
     padding: 40px 0;
     text-align: center;
+}
+
+/* Tablet Styles */
+
+@media screen and (min-w: 768px) {
+    header img {
+        display: block;
+        width: 65%;
+        margin: 10px auto;
+    }
+
+    header {
+        font-size: 2em;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        width: 300px;
+    }
+
+    section img, aside img {
+        display: block;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    section h1 {
+        font-size: 2em;
+    }
+
+    aside h2, aside h3 {
+        font-size: 1.7em;
+    }
+}
+
+/* Desktop Styles */
+
+@media screen and (min-w: 1024px) {
+    header img {
+        width: 40%;
+    }
+
+    header {
+        border-radius: 20px 20px 0 0;
+        font-size: 3em;
+    }
+
+    nav {
+        background-color: #718BD9;
+        padding: 5px;
+    }
+
+    nav li a {
+        width: 175px;
+    }
+
+    nav li a:hover {
+        border-radius: 20px;
+        color: black;
+    }
+
+    main {
+        display: flex;
+    }
+
+    section, aside {
+        margin: 10px;
+    }
+
+    section {
+        width: 70%;
+    }
+
+    aside {
+        width: 30%;
+    }
 }
