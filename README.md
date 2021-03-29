@@ -7,4 +7,4 @@
 <br>
 <a href="Midterm/index.html">Midterm</a>
 <br>
-<a href="Lab_5/index.html">Lab 5</a>
+<a href="Lab_5/index.html">Lab 5 & 6</a>
