@@ -1,9 +1,9 @@
 body {
-    background-color: ;
+    background-color: #D7F207;
 }
 
 video {
-    max-width: ;
+    max-width: 100%;
 }
 
 /* Mobile Styles */
@@ -13,14 +13,14 @@ video {
 }
 
 header {
-    background-image: ;
+    background-image: url('../images/header_bg.png');
     background-size: cover;
     height: 250px;
     padding: 5px;
 }
 
 header h1 {
-    color: ;
+    color: #D7F207;
     line-height: 265px;
     text-align: center;
     text-shadow: 2px 2px 2px black;
@@ -44,23 +44,23 @@ nav li a {
     display: block;
     padding: 15px;
     margin: 2px 0;
-    color: ;
+    color: #D7F207;
     font-size: 1.3em;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: ;
+    background-color: #F22929;
 }
 
 section {
-    background-color: ;
+    background-color: black;
     margin-top: 2px;
     padding: 10px;
 }
 
 section h2, section h3 {
-    color: ;
+    color: #D7F207;
     text-align: center;
 }
 
@@ -71,20 +71,20 @@ audio {
 
 table {
     width: 100%;
-    border: 2px solid ;
+    border: 2px solid #D7F207;
     margin: 10px 0;
 }
 
 td th {
-    color: ;
-    border: 2px solid ;
+    color: #F22929;
+    border: 2px solid #D7F207;
     padding: 10px;
     text-align: center;
 }
 
 footer {
     background-color: black;
-    color: ;
+    color: #F22929;
     padding: 40px 0;
     text-align: center;
     margin-top: 5px;
