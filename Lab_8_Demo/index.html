@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 8 Demo</title>
+    <link rel="stylesheet" href="CSS/normalizecopy.css">
+    <link rel="stylesheet" href="CSS/slicknavcopy.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Intro to JS</h1>
+        </header>
+        <nav>
+            <ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>BxSlider</h2>
+                <div class="slider">
+                    <div><img src="images/daisies.jpg" alt="random"></div>
+                    <div><img src="images/plant.jpg" alt="random"></div>
+                    <div><img src="images/succulents.jpg" alt="random"></div>
+                </div>
+            </section>
+            <section>
+                <h2>jQuery UI Accordion</h2>
+            </section>
+            <section>
+                <h2>jQuery UI Tabs</h2>
+            </section>
+        </main>
+        <footer>&copy; 2021 Lab 8 - Intro to JS</footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="JS/jquery.slicknav.mincopy.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script>
+        $(function(){
+            $('#menu').slicknav();
+            $('.slider').bxSlider();
+        });
+    </script>
+</body>
+</html>

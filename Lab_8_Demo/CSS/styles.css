@@ -1,0 +1,41 @@
+/* Mobile Styles */
+
+#container {
+    margin: 5px;
+}
+
+header {
+    background-color: #0D6EFD;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    color: white;
+}
+
+nav {
+    background-color: #0D6EFD;
+}
+
+section {
+    background-color: #0D6EFD;
+    padding: 10px;
+    margin: 5px;
+}
+
+section h2 {
+    text-align: center;
+    color: white;
+}
+
+footer {
+    background-color: #0D6EFD;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#menu {
+    display: none;
+}
