@@ -1,5 +1,9 @@
 /* Mobile Styles */
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 #container {
     margin: 5px;
 }
@@ -38,4 +42,62 @@ footer {
 
 #menu {
     display: none;
+}
+
+/* Tablet Styles */
+
+@media only screen and (min-width: 768px) {
+
+    header {
+        height: 200px;
+        line-height: 175px;
+    }
+
+    header h1 {
+        font-size: 50px;
+    }
+
+    .slicknav_menu {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    nav {
+        text-align: center;
+        padding: 5px 0;
+        margin-top: 5px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        display: block;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        width: 150px;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav li a:hover {
+        color: #0D6EFD;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #container {
+        width: 75%;
+        margin: 20px auto;
+    }
 }
