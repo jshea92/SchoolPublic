@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 8</title>
+    <link rel="stylesheet" href="CSS/normalizecopy.css">
+    <link rel="stylesheet" href="CSS/slicknavcopycopy.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery-ui.theme.mincopy.css">
+    <link rel="stylesheet" href="CSS/jquery-ui.mincopy.css">
+    <link rel="stylesheet" href="CSS/accordioncopy.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body id="top">
+    <div id="container">
+        <header>
+            <h1>Ableton Live</h1>
+        </header>
+        <nav>
+            <ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Packs</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Images</h2>
+                <div class="slider">
+                    <div><img src="images/logo.png" alt="logo"></div>
+                    <div><img src="images/desk.jpg" alt="desk"></div>
+                    <div><img src="images/screenshot.webp" alt="screenshot"></div>
+                </div>
+                <a href="#top">Back to the Top</a>
+            </section>
+            <section>
+                <h2>Ableton Live Packs</h2>
+                <div class="accordion">
+                    <div>
+                        <h3>Upright Piano</h3>
+                        <p>Infuse your projects with the natural warmth of an upright piano.</p>
+                    </div>
+                    <div>
+                        <h3>String Quartet</h3>
+                        <p>Get the authentic timbres and textures of a string quartet.</p>
+                    </div>
+                    <div>
+                        <h3>Voice Box</h3>
+                        <p>Voice Box invites you to get inventive with vocals.</p>
+                    </div>
+                </div>
+                <a href="#top">Back to the Top</a>
+            </section>
+        </main>
+        <footer>&copy; 2021 Lab 8</footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="JS/jquery.slicknav.mincopycopy.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="JS/zenscroll-mincopy2.js"></script>
+    <script src="JS/jquery-ui.mincopy.js"></script>
+    <script src="JS/accordioncopy.js"></script>
+    <script>
+        $(function(){
+            $('#menu').slicknav();
+            $('.slider').bxSlider();
+            $('.accordion').accordion();
+        });
+    </script>
+</body>
+</html>

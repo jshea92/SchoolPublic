@@ -1,0 +1,108 @@
+/* Mobile Styles */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#top {
+    background-color: #50F2E2;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#container {
+    margin: 5px;
+}
+
+header {
+    background-color: #50F2E2;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    color: white;
+}
+
+nav {
+    background-color: #50F2E2;
+}
+
+section {
+    background-color: #50F2E2;
+    padding: 40px 0;
+}
+
+section h2 {
+    text-align: center;
+    color: white;
+}
+
+footer {
+    background-color: #50F2E2;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#menu {
+    display: none;
+}
+
+/* Tablet Styles */
+
+@media only screen and (min-width: 768px) {
+    header {
+        height: 200px;
+        line-height: 175px;
+    }
+
+    header h1 {
+        font-size: 50px;
+    }
+
+    .slicknav_menu {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    nav {
+        text-align: center;
+        padding: 5px 0;
+        margin-top: 5px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        display: block;
+        background-color: #50F2E2;
+        color: white;
+        padding: 10px;
+        width: 150px;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav li a:hover {
+        color: #7FC5FF;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #container {
+        width: 75%;
+        margin: 20px auto;
+    }
+}
