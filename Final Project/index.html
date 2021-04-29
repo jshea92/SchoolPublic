@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/normalizecopycopy.css">
+    <link rel="stylesheet" href="CSS/slicknavcopycopycopy.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Final Project - Japan</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Welcome to Japan!</h1>
+            <img src="Images/kyoto.jpeg" alt="kyoto">
+        </header>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="scenery.html">Scenery</a></li>
+                <li><a href="fashion.html">Fashion</a></li>
+                <li><a href="food.html">Food</a></li>
+                <li><a href="coffee.html">Coffee</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <div class="row">
+                    <div class="column">
+                        <h1>On The Map</h1>
+                        <p>An island country in East Asia, located in the Northwest Pacific Ocean, with a population of 126.3 million people, Japan is a cultural hot spot and tech giant.</p>
+
+                        <img src="Images/map.jpg" alt="map">
+                    </div>
+
+                    <div class="column">
+                        <h1>History</h1>
+                        <p>Japan has been inhabited since the Upper Paleolithic period (30,000 BC), though the first mentions of the archipelago appear in Chinese chronicles from the 1st century AD.</p>
+
+                        <img src="Images/arch.png" alt="arch">
+                    </div>
+                </div>
+            </section>
+            <section id="audio">
+                <h2>Fell Japan - "Sounds of Nature"</h2>
+
+                <audio src="audio/06 Fell Japan _Sounds of nature.mp3" controls></audio>
+            </section>
+        </main>
+        <footer>&copy; 2021 Final Project</footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="JS/jquery-ui.mincopycopy.js"></script>
+    <script src="JS/jquery.slicknav.mincopy.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script>
+        $(function(){
+            $('#menu').slicknav();
+            $('.slider').bxSlider();
+        });
+    </script>    
+</body>
+</html>

@@ -12,3 +12,5 @@
 <a href="Lab_7/index.html">Lab 7</a>
 <br>
 <a href="Lab_8/index.html">Lab 8</a>
+<br>
+<a href="Final_Project/index.html">Final Project</a>

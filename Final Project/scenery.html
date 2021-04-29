@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/normalizecopycopy.css">
+    <link rel="stylesheet" href="CSS/slicknavcopycopycopy.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Final Project - Japan</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Scenery in Japan</h1>
+            <img src="Images/scenery.jpeg" alt="scenery">
+        </header>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="scenery.html">Scenery</a></li>
+                <li><a href="fashion.html">Fashion</a></li>
+                <li><a href="food.html">Food</a></li>
+                <li><a href="coffee.html">Coffee</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Shrines</h2>
+            <div class="slider">
+                <div><img src="Images/1.jpeg" alt="1"></div>
+                <div><img src="Images/2.jpeg" alt="2"></div>
+                <div><img src="Images/3.jpeg" alt="3"></div>
+                <div><img src="Images/4.jpeg" alt="4"></div>
+            </div>
+            <section id="tables">
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Location</th>
+                        <th>Age</th>
+                    </tr>
+                    <tr>
+                        <td>Ise Grand Shrine</td>
+                        <td>Mie Prefecture</td>
+                        <td>4 B.C.</td>
+                    </tr>
+                    <tr>
+                        <td>Izumo Taisha</td>
+                        <td>Shimane Prefecture</td>
+                        <td>Unknown</td>
+                    </tr>
+                    <tr>
+                        <td>Fushimi Inari Shrine</td>
+                        <td>Fushimi-ku, Kyoto</td>
+                        <td>8th Century</td>
+                    </tr>
+                </table>
+            </section>
+            <section id="video">
+                <h2>Drone Footage of Japan</h2>
+                <video src="video/Tokyo, Japan 🇯🇵 - by drone [4K]-OKAYqzOfLjY.mp4" controls></video>
+            </section>
+        </main>
+        <footer>&copy; 2021 Final Project</footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="JS/jquery-ui.mincopycopy.js"></script>
+    <script src="JS/jquery.slicknav.mincopy.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script>
+        $(function(){
+            $('#menu').slicknav();
+            $('.slider').bxSlider();
+        });
+    </script>
+</body>
+</html>
